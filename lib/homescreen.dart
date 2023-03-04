@@ -64,9 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Like_Screen(),
                       Profile_Screen(),
 
-
                       // home search like profile
-
                     ],
                   ),
                 ),
