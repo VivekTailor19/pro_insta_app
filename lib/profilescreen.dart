@@ -47,7 +47,7 @@ class _Profile_ScreenState extends State<Profile_Screen> {
                     )
                   ],
                 ),
-                Info(10, "Posts"),
+                Info(12, "Posts"),
                 Info(900, "Followers"),
                 Info(10, "Following")
               ],
