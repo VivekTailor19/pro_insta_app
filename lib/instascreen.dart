@@ -91,7 +91,6 @@ class _Insta_ScreenState extends State<Insta_Screen> {
       children: [
         Image.asset(
           "$iphoto",
-          width: 250,
           height: 250,
           fit: BoxFit.contain,
         ),

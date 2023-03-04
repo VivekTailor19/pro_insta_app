@@ -14,6 +14,11 @@ class HomeScreen extends StatefulWidget {
 }
 
 int i = 0;
+Color c2 = Colors.black12;
+Color c1 = Colors.black;
+
+Color i_home = c1;
+Color i_search = c2, i_profile = c2, i_like = c2;
 
 class _HomeScreenState extends State<HomeScreen> {
   @override
@@ -26,30 +31,47 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  InkWell(onTap: () {
+                  GestureDetector(onTap: () {
                     setState(() {
                       i = 0;
+                      i_home = c1;
+                      i_search = c2;
+                      i_like = c2;
+                      i_profile = c2;
+
                     });
                   },
-                      child: Icon(Icons.home_sharp)),
-                  InkWell(onTap: () {
+                      child: Icon(Icons.home_outlined,color: i_home)),
+                  GestureDetector(onTap: () {
                     setState(() {
                       i = 1;
+                      i_home = c2;
+                      i_search = c1;
+                      i_like = c2;
+                      i_profile = c2;
                     });
                   },
-                      child: Icon(Icons.search)),
-                  InkWell(onTap: () {
+                      child: Icon(Icons.search,color: i_search)),
+                  GestureDetector(onTap: () {
                     setState(() {
                       i = 2;
+                      i_home = c2;
+                      i_search = c2;
+                      i_like = c1;
+                      i_profile = c2;
                     });
                   },
-                      child: Icon(Icons.favorite_outline_rounded)),
-                  InkWell(onTap: () {
+                      child: Icon(Icons.favorite_outline_rounded,color: i_like)),
+                  GestureDetector(onTap: () {
                     setState(() {
                       i = 3;
+                      i_home = c2;
+                      i_search = c2;
+                      i_like = c2;
+                      i_profile = c1;
                     });
                   },
-                      child: Icon(Icons.person_outline_rounded)),
+                      child: Icon(Icons.person_outline_rounded,color: i_profile)),
                 ],
               ),
             ),
@@ -73,4 +95,6 @@ class _HomeScreenState extends State<HomeScreen> {
         )
     );
   }
+
+
 }
