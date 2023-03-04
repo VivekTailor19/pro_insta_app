@@ -115,7 +115,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Container(
         height: 120,
         width: 120,
-        child: Image.asset("$iphoto",fit: BoxFit.cover,),
+        child: Image.asset("$iphoto",fit: BoxFit.cover),
         decoration: BoxDecoration(border: Border.all(color: Colors.lightBlueAccent.shade100,width: 2))
     );
   }
