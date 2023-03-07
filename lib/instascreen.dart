@@ -49,7 +49,6 @@ class _Insta_ScreenState extends State<Insta_Screen> {
                       Status('assets/images/insta10.jpg'),
                       Status('assets/images/insta15.jpg'),
                       Status('assets/images/insta6.jpg'),
-
                     ],
                   ),
                 ),

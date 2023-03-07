@@ -93,7 +93,6 @@ class _Profile_ScreenState extends State<Profile_Screen> {
                     Highlights('assets/images/hacker.jpg'),
                     Highlights('assets/images/hacker1.jpg'),
                     Highlights('assets/images/hacker5.jpg'),
-
                   ],
                 ),
               ),

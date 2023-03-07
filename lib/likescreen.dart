@@ -59,9 +59,9 @@ class _Like_ScreenState extends State<Like_Screen> {
                   Notes("Raghav", "Dhoni", 50, "assets/images/hacker.jpg"),
                   Notes("Viren", "Viral", 950, "assets/images/insta15.jpg"),
                   Notes("Vidit", "Patel", 70, "assets/images/hacker5.jpg"),
+                  Notes("Rahul", "Virat", 60, "assets/images/insta4.jpg"),
                 ],
               ),
-
 
             ],
 
