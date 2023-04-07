@@ -90,8 +90,9 @@ class _Insta_ScreenState extends State<Insta_Screen> {
       children: [
         Image.asset(
           "$iphoto",
-          height: 250,
-          fit: BoxFit.contain,
+          height: 350,
+          width: 200,
+          fit: BoxFit.fill,
         ),
         Padding(
           padding: const EdgeInsets.only(right: 10.0, left: 10.0),

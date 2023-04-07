@@ -183,8 +183,8 @@ class _Profile_ScreenState extends State<Profile_Screen> {
   Widget Photos(String iphoto)
   {
     return Container(
-        height: 120,
-        width: 120,
+        height: 110,
+        width: 110,
         child: Image.asset("$iphoto",fit: BoxFit.cover,),
         decoration: BoxDecoration(border: Border.all(color: Colors.lightBlueAccent.shade100,width: 2))
     );

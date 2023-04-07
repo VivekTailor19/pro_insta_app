@@ -87,8 +87,8 @@ class _Like_ScreenState extends State<Like_Screen> {
           ),
           SizedBox(width: 15),
           RichText(text: TextSpan(children: [
-            TextSpan(text: "$person1 , $person2  & $no",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15)),
-            TextSpan(text: " others liked your photo.",style: TextStyle(fontSize: 15)),
+            TextSpan(text: "$person1 , $person2  & $no",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.blue)),
+            TextSpan(text: " others liked your photo.",style: TextStyle(fontSize: 11,color: Colors.black)),
           ],))
         ],
       ),
